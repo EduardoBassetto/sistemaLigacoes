@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #B0C4DE;
+    font-size: 1.19em;
+    }
+
+header {
+    background-color: #09182c;
+    text-align: center;
+    color: antiquewhite;
+    height: 40px;
+    box-shadow: 0px 1px 3px #000000;
+    margin-bottom: 1%;
+}
+
+form {
+    position: sticky;
+    display: flex;
+    background-color: #09192e;
+    height: 50px;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 3px #042541 ;
+}
+#pedido{
+    width: 60%;
+    margin: 2%;
+    border-radius: 15px;
+    padding: 5px;
+}
+#botaoAnotar{
+    border-radius: 20px;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #B0C4DE;
+    transition: 1s;
+}
+#botaoAnotar:hover{
+    font-size: 1.19em;
+    box-shadow: 0.7px 0.7px 5px #c6d2e0;
+}
+.pedidos {
+    background-color: #4683b456;
+    margin: 1% 5% 4% 5%; 
+    padding: 20px;
+    border-radius: 25px;
+}
+.li-js {
+    list-style: none;
+    margin: 4px;
+    padding: 15px;
+    background-color: #E6E6FA;
+    font-weight: bold;
+    border-radius: 16px;
+    display: inline-block;
+    transition: 1.4s;
+}
+.li-js.done p {
+    text-decoration: line-through;
+}
+.li-js.done {
+    background-color: #63608a;
+}
+.div-js.done {
+    background-color: #63608a;
+}
+.li-js.done button {
+ background-color: #2e2d3f;
+}
+.div-js {
+    display: inline-flex;
+    background-color: #4683b456;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 1px;
+    transition: 0.4s;
+ }
+p {
+    margin-right: 10px;
+}
+button{
+    margin: 2px;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: #81a9c9e8;
+    border-style: none;
+    border: 1px solid #0817497a;
+}
+.botaoConclui:hover{
+    background-color: #5d995da9;
+    border-color: #5d995da9;
+}
+.botaoAdicionar:hover{
+    background-color: #f1ed2075;
+    border-color: #f1ed2075;
+}
+.botaoDeletar:hover{
+    background-color: rgba(255, 0, 0, 0.418);
+    border-color: rgba(255, 0, 0, 0.418);
+}
+ .pedidoNovo{
+    display: inline-flex;
+    background-color: #4683b456;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 5px;
+ }
+ .pedidoNovo.done{
+    background-color: #63608a;
+ }
